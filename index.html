@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Duties App</title>
+    </head>
+    <body>
+        <h1>Duties</h1>
+        <form id="user_form" action="" method="post">
+            <input type="hidden" name="user_duty_id" id="hidden_field">
+            <label for="name">Name: </label>
+            <input type="text" name="user_name" id="name" placeholder="Mafabi Emmanuel">
+            <label for="time">Time: </label>
+            <input type="text" name="user_time" id="time" placeholder="1900hrs">
+            <label for="duty">Duty: </label>
+            <input type="text" name="user_duty" id="duty" placeholder="Wash the Car">
+            <button type="submit" id="add_user">Add</button>
+        </form>
+        <table id="duty_table">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Duty Time</th>
+                    <th>Duty</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <hr>
+            <tbody>
+                <!--tr>
+                    <td>Mafabi</td>
+                    <td>1900hrs</td>
+                    <td>Washing the Car</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr-->
+            </tbody>
+        </table>
+        <script src="logic.js"></script>
+    </body>
+</html>

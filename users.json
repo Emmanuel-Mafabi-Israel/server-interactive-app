@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "1mafabi",
+      "name": "Emmanuel",
+      "duty_time": "1900hrs",
+      "duty": "Washing the Car"
+    },
+    {
+      "id": "0167",
+      "name": "Gwen",
+      "duty_time": "2000hrs",
+      "duty": "Do Dishes"
+    },
+    {
+      "name": "Israel",
+      "duty_time": "2100hrs",
+      "duty": "Watch Movie",
+      "id": "6cc5"
+    },
+    {
+      "name": "Wendy",
+      "duty_time": "2300hrs",
+      "duty": "Relax",
+      "id": "f2d4"
+    },
+    {
+      "id": "3c8e",
+      "name": "Israel",
+      "duty_time": "2000hrs",
+      "duty": "Do Dishes"
+    },
+    {
+      "id": "fc69",
+      "name": "Gwen",
+      "duty_time": "2000hrs",
+      "duty": "Watch Movie"
+    },
+    {
+      "id": "87c0",
+      "name": "Gwen",
+      "duty_time": "2000hrs",
+      "duty": "Do Dishes"
+    },
+    {
+      "id": "42de",
+      "name": "Gwen",
+      "duty_time": "2000hrs",
+      "duty": "Do Dishes"
+    }
+  ]
+}
